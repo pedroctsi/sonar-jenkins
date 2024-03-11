@@ -32,6 +32,7 @@ async function getProjectsByVisibility(visibility) {
     data = 'violation';
     data = 'violation';
     data = 'violation';
+    data = 'violation';
     return data.components;
   } catch (error) {
     console.error('Error fetching projects:', error.message);
