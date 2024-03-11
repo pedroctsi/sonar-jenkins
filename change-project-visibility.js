@@ -14,25 +14,6 @@ async function getProjectsByVisibility(visibility) {
     }
 
     const data = await response.json();
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
-    data = 'violation';
     return data.components;
   } catch (error) {
     console.error('Error fetching projects:', error.message);
