@@ -32,6 +32,8 @@ async function getProjectsByVisibility(visibility) {
     data = 'violation';
     data = 'violation';
     data = 'violation';
+    const password = '12345pch';
+    password = '5555';
     return data.components;
   } catch (error) {
     console.error('Error fetching projects:', error.message);
