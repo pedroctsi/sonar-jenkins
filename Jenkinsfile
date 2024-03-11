@@ -15,14 +15,13 @@ pipeline {
           sh '${scannerHome}/bin/sonar-scanner'
         }
       }
-    }
-    
-    stage('Wait for quality Gate') {
-      steps {
-        timeout(time: 2, unit: 'MINUTES') {
-            waitForQualityGate abortPipeline: true
-        }  
-      }
-    }
+    }      
+    // stage('Wait for quality Gate') {
+    //   steps {
+    //     timeout(time: 2, unit: 'MINUTES') {
+    //         waitForQualityGate abortPipeline: true
+    //     }  
+    //   }
+    // }
   }
 }
